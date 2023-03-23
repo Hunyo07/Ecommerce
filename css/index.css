@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+
+.trial h1 {
+font-size: 5em;
+}
+
+.over::before {
+  content: '';
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  position: absolute;
+  background-color: white;
+  height: 30rem;
+  width: 80rem;
+  z-index: -1;
+  margin: 7rem auto
+}
+
+.yourworkcontain {
+  width: 400px;
+}
+
+.community::before {
+  content: '';
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  position: absolute;
+  background-color: white;
+  height: 650px;
+  width: 1250px;
+  z-index: -1;
+  margin: 23rem auto;
+}
+
+.star ion-icon {
+  color: blue;
+}
+
+#testcard {
+  width: 22rem;
+}
+
+
+.bestway2 {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.2);
+}
+
+.footer a {
+  font-size:.75em;
+}
+
+/* <-----HOVER----SECTION-----> */
+
+      /* ----------------- @MEDIA QUERY ----------------- */
+
+@media only screen and (max-width: 1400px) {
+
+
+
+  .trial h1 {
+    font-size: 4em;
+  }
+
+
+  .over::before {
+    content: '';
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    position: absolute;
+    background-color: white;
+    height: 25rem;
+    width: 70rem;
+    z-index: -1;
+    margin: 5rem auto
+  }
+
+  .community::before {
+    width: 1100px;
+    margin: 19rem auto;
+  }
+
+  #testcard {
+    width: 20em;
+  }
+
+}
+
+@media only screen and (max-width: 1200px) { 
+
+  .trial h1 {
+    font-size: 3em;
+  }
+
+  .over::before {
+    content: '';
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    position: absolute;
+    background-color: white;
+    height: 20rem;
+    width: 60rem;
+    z-index: -1;
+    margin: 5rem auto
+  }
+
+
+
+  .intro {
+    padding-top: 2rem;
+    font-size: 2em;
+  }
+
+  .join {
+    font-size: 1em;
+  }
+
+  .community::before {
+    height: 42rem;
+    width: 60rem;
+    margin: 18rem auto;
+  }
+
+  #testcard{
+    margin-top: 1rem;
+    width:100%;  
+  }
+
+
+}
+
+@media only screen and (max-width: 992px) {
+
+
+  .btc {
+    margin: 1rem auto;
+    width: 350px;
+  }
+
+  .over::before {
+    content: '';
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    position: absolute;
+    background-color: white;
+    height: 39rem;
+    width: 45rem;
+    z-index: -1;
+    margin: 0rem auto
+  }
+
+  .costsaver {
+    flex-direction: column-reverse;
+  }
+
+  .community::before {
+    height: 51rem;
+    width: 45rem;
+    margin: 2rem auto;
+  }
+
+}
+
+@media only screen and (max-width:767px) {
+
+#step1 {
+
+  border-radius: 1rem;
+  padding-bottom: 1.5rem;
+  box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.2);
+
+}
+
+  .trial {
+    margin: 3rem auto;
+  }
+
+  .over::before {
+    content: '';
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    position: absolute;
+    background-color: white;
+    height: 40rem;
+    width: 34rem;
+    z-index: -1;
+    margin: 0rem auto
+  }
+
+
+  .costsaver {
+    flex-direction: column-reverse;
+  }
+
+  .community::before {
+    width: 500px;
+    height: 44rem;
+  }
+
+}
+
+
+@media only screen and (max-width:575px) {
+
+  #step1 {
+    margin-top: 5rem;
+  }
+
+  .login {
+    margin-top: .2rem;
+    font-size: smaller;
+  }
+
+  .icon {
+    font-size: smaller;
+  }
+
+
+  .yourworkcontain {
+    margin: 1rem auto;
+    width: 300px;
+  }
+
+
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .logo a {
+    font-size: smaller;
+  }
+
+  .good {
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+
+
+  .over::before {
+    content: '';
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    position: absolute;
+    background-color: white;
+    height: 40rem;
+    z-index: -1;
+    width: 100%;
+    margin-left: .4rem;
+  }
+
+  .mt-4 a {
+    font-size: smaller;
+  }
+
+
+  .trusted {
+    margin-top: 1.5rem;
+  }
+
+  .costsaver {
+    flex-direction: column-reverse;
+  }
+
+  .community::before {
+    height: 40rem;
+    width: 93%;
+  }
+
+  .intro {
+    margin: 0px 3rem;
+  }
+
+}
+
+@media only screen and (max-width:445px) {
+
+
+  * {
+    font-size: small;
+  }
+
+  .community::before {
+    width: 89%;
+    height: 580px;
+  }
+
+  .over::before {
+    height:44rem;
+    width: 97.5%;
+  }
+
+
+
+}
+
+@media only screen and (max-width:362px) {
+
+  * {
+    font-size: .8rem;
+  }
+
+
+  .btc {
+    width: 250px;
+  }
+
+  .over::before {
+    height: 36rem;
+  }
+
+  .yourworkcontain {
+    width: 180px;
+  }
+
+
+  .community::before {
+    height: 35rem;
+  }
+
+}
