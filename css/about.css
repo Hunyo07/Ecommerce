@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+.list-group-item h5{
+  margin-top: .6rem;
+  margin-bottom: 0px;
+}
+.list-group-item{
+  margin: 2rem;
+  margin-top: 2rem;
+  font-weight: bold;
+  width: rem;
+}
+
+
+#wing{
+  width: 45rem;
+}
+#team{
+  width: 65em;
+}
+
+#about{
+  width:70rem;
+}
+
+/* ------MEDIA--QUERY----- */
+
+@media only screen and (max-width:1400px){
+  #about{
+    width:60rem;
+  }
+ 
+}
+
+
+@media only screen and (max-width:1200px){
+  #about{
+    width:50rem;
+  }
+
+}
+@media only screen and (max-width:992px){
+  #about{
+    width:16rem;
+  }
+  #team{
+    width: 45em;
+  }
+  .list-group-item h5{
+    font-size: 1rem;
+    margin: .5rem auto;
+  }
+  .list-group-item {
+    width: 6rem;
+  }
+
+  #about{
+    width: 60rem;
+  }
+
+  #wing{
+    width: 30rem;
+  }
+  #wing img{
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:767px){
+
+}
+
+@media only screen and (max-width:575px){
+  #about .mt-4{
+    font-size: 1rem;
+  }
+  #about {
+    padding: 0px;
+    width: 22rem;
+    margin: 0px auto;
+  }
+  #wing{
+    margin: 0px;
+    width: 20rem;
+  }
+
+ 
+}
