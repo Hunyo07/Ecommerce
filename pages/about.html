@@ -9,15 +9,17 @@
   <link rel="stylesheet" href="/css/about.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
   <script defer type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
 </head>
 
 <body class="bg-body-tertiary">
   <div>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
       <div class="lando container my-3">
         <a class=" navbar-brand fw-bold " href="#">Hunyo</a>
         <div class="d-flex ">
@@ -40,7 +42,7 @@
               <a class="nav-link fw-bold " href="/pages/pricing.html">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold " href="/pages/about.html">About</a>
+              <a class="nav-link fw-bold active" href="/pages/about.html">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link fw-bold " href="/pages/contact.html">Contact</a>
@@ -54,8 +56,11 @@
       </div>
     </nav>
   </div>
+
+  <!-- -------ABOUT--US----------- -->
+
   <div class="container-lg container-md container-sm pt-xl-5 pt-lg-5 pt-md-5 border-bottom" id="about">
-    <div class="container-fluid text-center mt-5" >
+    <div class="container-fluid text-center mt-5" data-aos="fade-up">
       <h1 class="mt-4 fw-bold">About us</h1>
       <h4 class="mt-4 text-muted">We offer revolutionary solution to industry problems. Join Hunyo community and
         experience
@@ -63,10 +68,10 @@
       </h4>
     </div>
 
-    <div class="mx-auto my-xl-5 my-lg-5 my-md-5" id="wing">
+    <div class="mx-auto my-xl-5 my-lg-5 my-md-5" id="wing" data-aos="fade-up">
       <img class="img-fluid m-xl-5 m-lg-5 " src="/img/pngwing.com.png" alt="/img/pngwing.com.png">
     </div>
-    <div class="text-center w-75 mx-auto mt-5">
+    <div class="text-center w-75 mx-auto mt-5" data-aos="fade-up">
       <h1 class="mt-4 fw-bold">
         Our mission
       </h1>
@@ -81,121 +86,132 @@
   </div>
   <div class="container">
     <div class="row p-0 mt-5 pt-5">
-      <div class="yourworktext col col-xl-6 col-lg-6 col-md-12 col-sm-12 my-auto ">
+      <div class="yourworktext col col-xl-6 col-lg-6 col-md-12 col-sm-12 my-auto " data-aos="fade-up">
         <div class="yourworkcontain mx-sm-auto ">
           <h1 class="fw-bold mt-lg-4">Let's start working more efficiently today!</h1>
         </div>
       </div>
-      <div class="yourwork p-0 col-lg-6 col-md-12 col-sm-12 ">
+      <div class="yourwork p-0 col-lg-6 col-md-12 col-sm-12 " data-aos="fade-up">
         <img class="img-fluid mt-3 " src="/img/—Pngtree—teamwork concept people work in_6667638.png" alt="">
       </div>
     </div>
   </div>
 
+  <!-- -----------TEAM--OFFICIALS---------- -->
+
   <div class="container-fluid p-0 d-none d-md-block" id="mainteam">
     <div class="text-center">
-      <div>
+      <div data-aos="fade-up">
       <h1 class="fw-bold my-4">Team</h1>
       <h4 class="text-muted my-4">Meet the people behind our extreme magical product</h4>
       </div>
       <div class="container-fluid">
-    <div class="d-flex flex-row justify-content-between text-center mx-auto mt-5" id="team">
-      <ul class="list-unstyled list-group-horizontal ">
-        <li class="list-group-item" >
-          <img src="/img/kuyangpikit.png" alt="" class="img-fluid rounded-circle">
-        <h5 class="fw-bold">Jerome Espiritu</h5>
-        <h5 class="text-muted"> CEO </h5>
-      </li>
-      <li class="list-group-item" >
-        <img src="/img/0-02-06-4b133b1e74ec814607212dddc18c4881069e6dd76bf730ad7c5a74bffc6cebcc_e7caafb167810463.jpg" alt="" class="img-fluid rounded-circle" >
-      <h5 class="fw-bold">Jerome Espiritu</h5>
-      <h5 class="text-muted"> CEO </h5>  
-        </li>
-        </ul>
-        <ul class="list-unstyled ">
-        <li class="list-group-item" >
-          <img src="/img/kuyangdilat.png" alt="" class="img-fluid rounded-circle" >
-        <h5 class="fw-bold">Jerome Espiritu</h5>
-        <h5 class="text-muted"> CEO </h5>
-        </li>
-        <li class="list-group-item" >
-          <img src="/img/0-02-06-4b133b1e74ec814607212dddc18c4881069e6dd76bf730ad7c5a74bffc6cebcc_e7caafb167810463.jpg" alt="" class="img-fluid rounded-circle" >
-        <h5 class="fw-bold">Jerome Espiritu</h5>
-        <h5 class="text-muted"> CEO </h5>
-        </li>
-      </ul>
+    <div class="d-flex flex-row justify-content-between text-center mx-auto mt-5" id="team" data-aos="fade-up" > 
       <ul class="list-unstyled ">
         <li class="list-group-item" >
-          <img src="/img/0-02-06-4b133b1e74ec814607212dddc18c4881069e6dd76bf730ad7c5a74bffc6cebcc_e7caafb167810463.jpg" alt="" class="img-fluid rounded-circle" >
-        <h5 class="fw-bold">Jerome Espiritu</h5>
-        <h5 class="text-muted"> CEO </h5></li>
+          <img src="/img/asing.jpg" alt="" class="img-fluid rounded-circle" >
+        <h5 class="fw-bold">Hunyo Galino</h5>
+        <h5 class="text-muted"> Chairman </h5></li>
         <li class="list-group-item" >
-          <img src="/img/0-02-06-4b133b1e74ec814607212dddc18c4881069e6dd76bf730ad7c5a74bffc6cebcc_e7caafb167810463.jpg" alt="" class="img-fluid rounded-circle" >
-        <h5 class="fw-bold">Jerome Espiritu</h5>
-        <h5 class="text-muted"> CEO </h5></li>
+          <img src="/img/kuyangpikit.png" alt="" class="img-fluid rounded-circle">
+        <h5 class="fw-bold">JM Pikit Galino</h5>
+        <h5 class="text-muted">HR Manager</h5>
+      </li>
+        </ul>
+        <ul class="list-unstyled ">
+          <li class="list-group-item" >
+            <img src="/img/0-02-06-4b133b1e74ec814607212dddc18c4881069e6dd76bf730ad7c5a74bffc6cebcc_e7caafb167810463.jpg" alt="" class="img-fluid rounded-circle" >
+          <h5 class="fw-bold">Jerome Espiritu</h5>
+          <h5 class="text-muted"> CEO </h5>
+          </li>
+        <li class="list-group-item" >
+          <img src="/img/kuyangdilat.png" alt="" class="img-fluid rounded-circle" >
+        <h5 class="fw-bold">JM Dilat Galino</h5>
+        <h5 class="text-muted">PEO</h5>
+        </li>
+      </ul>
+      <ul class="list-unstyled list-group-horizontal ">
+        <li class="list-group-item" >
+          <img src="/img/atecamille.jpg" alt="" class="img-fluid rounded-circle" >
+        <h5 class="fw-bold">Camille Galino</h5>
+        <h5 class="text-muted">General Manager</h5>
+      </li>       
+      <li class="list-group-item" >
+        <img src="/img/ate jinky.jpg" alt="" class="img-fluid rounded-circle" >
+      <h5 class="fw-bold">Jinky Villapanya</h5>
+      <h5 class="text-muted">Financial Manager</h5>  
+        </li>
         </ul>
         <ul class="list-unstyled">
         <li class="list-group-item" >
-          <img src="/img/0-02-06-4b133b1e74ec814607212dddc18c4881069e6dd76bf730ad7c5a74bffc6cebcc_e7caafb167810463.jpg" alt="" class="img-fluid rounded-circle" >
-        <h5 class="fw-bold">Jerome Espiritu</h5>
-        <h5 class="text-muted"> CEO </h5></li>
+          <img src="/img/Ed.jpg" alt="" class="img-fluid rounded-circle" >
+        <h5 class="fw-bold">Ed Caluag</h5>
+        <h5 class="text-muted">Surg At Arms</h5></li>
         <li class="list-group-item" >
-          <img src="/img/0-02-06-4b133b1e74ec814607212dddc18c4881069e6dd76bf730ad7c5a74bffc6cebcc_e7caafb167810463.jpg" alt="" class="img-fluid rounded-circle" >
-        <h5 class="fw-bold">Jerome Espiritu</h5>
-        <h5 class="text-muted"> CEO </h5></li>
+          <img src="/img/jengjeng.jpg" alt="" class="img-fluid rounded-circle" >
+        <h5 class="fw-bold">Aksha Illyra</h5>
+        <h5 class="text-muted">Programmer</h5></li>
       </ul>
     </div>
   </div>
   </div>
 </div>
+
+
+
 <div class="d-block d-md-none">
-  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up">
+    <div class="carousel-inner" data-aos="fade-up">
       <div class="carousel-item active">
         <div class="d-flex flex-row text-center justify-content-center">
-          <ul class="list-unstyled">
-            <li class="list-group-item" >
-              <img src="/img/kuyangpikit.png" alt="" class="img-fluid rounded-circle" >
-            <h5 class="fw-bold">JM <br> Galino</h5>
-            <h5 class="text-muted"> CEO </h5></li>
-            <li class="list-group-item" >
-              <img src="/img/kuyangpikit.png" alt="" class="img-fluid rounded-circle" >
-            <h5 class="fw-bold">JM <br> Galino</h5>
-            <h5 class="text-muted"> CEO </h5></li>
-          </ul>
           <ul class="list-unstyled ">
             <li class="list-group-item" >
-              <img src="/img/kuyangpikit.png" alt="" class="img-fluid rounded-circle" >
-            <h5 class="fw-bold">JM <br> Galino</h5>
-            <h5 class="text-muted"> CEO </h5></li>
+              <img src="/img/asing.jpg" alt="" class="img-fluid rounded-circle" >
+            <h5 class="fw-bold">Hunyo Galino</h5>
+            <h5 class="text-muted"> Chairman </h5></li>
             <li class="list-group-item" >
-              <img src="/img/kuyangpikit.png" alt="" class="img-fluid rounded-circle" >
-            <h5 class="fw-bold">JM <br> Galino</h5>
-            <h5 class="text-muted"> CEO </h5></li>
+              <img src="/img/kuyangpikit.png" alt="" class="img-fluid rounded-circle">
+            <h5 class="fw-bold">JM Pikit Galino</h5>
+            <h5 class="text-muted">HR Manager</h5>
+          </li>
             </ul>
+            <ul class="list-unstyled ">
+              <li class="list-group-item" >
+                <img src="/img/0-02-06-4b133b1e74ec814607212dddc18c4881069e6dd76bf730ad7c5a74bffc6cebcc_e7caafb167810463.jpg" alt="" class="img-fluid rounded-circle" >
+              <h5 class="fw-bold">Jerome Espiritu</h5>
+              <h5 class="text-muted"> CEO </h5>
+              </li>
+            <li class="list-group-item" >
+              <img src="/img/kuyangdilat.png" alt="" class="img-fluid rounded-circle" >
+            <h5 class="fw-bold">JM Dilat Galino</h5>
+            <h5 class="text-muted">PEO</h5>
+            </li>
+          </ul>
           </div>
       </div>
       <div class="carousel-item">
         <div class="d-flex flex-row text-center justify-content-center">
-          <ul class="list-unstyled">
+          <ul class="list-unstyled list-group-horizontal ">
             <li class="list-group-item" >
-              <img src="/img/kuyangdilat.png" alt="" class="img-fluid rounded-circle" >
-            <h5 class="fw-bold">JM <br> Galino</h5>
-            <h5 class="text-muted"> CEO </h5></li>
-            <li class="list-group-item" >
-              <img src="/img/kuyangdilat.png" alt="" class="img-fluid rounded-circle" >
-            <h5 class="fw-bold">JM <br> Galino</h5>
-            <h5 class="text-muted"> CEO </h5></li>
-          </ul>
-          <ul class="list-unstyled ">
-            <li class="list-group-item" >
-              <img src="/img/kuyangdilat.png" alt="" class="img-fluid rounded-circle" >
-            <h5 class="fw-bold">JM <br> Galino</h5>
-            <h5 class="text-muted"> CEO </h5></li>
-            <li class="list-group-item" >
-              <img src="/img/kuyangdilat.png" alt="" class="img-fluid rounded-circle" >
-            <h5 class="fw-bold">JM <br> Galinou</h5>
-            <h5 class="text-muted"> CEO </h5></li>
+              <img src="/img/atecamille.jpg" alt="" class="img-fluid rounded-circle" >
+            <h5 class="fw-bold">Camille Galino</h5>
+            <h5 class="text-muted">General M</h5>
+          </li>       
+          <li class="list-group-item" >
+            <img src="/img/ate jinky.jpg" alt="" class="img-fluid rounded-circle" >
+          <h5 class="fw-bold">Jinky Villapanya</h5>
+          <h5 class="text-muted">Financial Manager</h5>  
+            </li>
+            </ul> 
+            <ul class="list-unstyled">
+              <li class="list-group-item" >
+                <img src="/img/Ed.jpg" alt="" class="img-fluid rounded-circle" >
+              <h5 class="fw-bold">Ed Caluag</h5>
+              <h5 class="text-muted">Surg At Arms</h5></li>
+              <li class="list-group-item" >
+                <img src="/img/jengjeng.jpg" alt="" class="img-fluid rounded-circle" >
+              <h5 class="fw-bold">Aksha Illyra</h5>
+              <h5 class="text-muted">Programmer</h5></li>
             </ul>
           </div>
       </div>
@@ -234,19 +250,20 @@
     </button>
   </div>
 </div>
+<!-- ----GETSTARTED---- -->
   <div class="container">
-    <div class="bestway2 container mt-5 bg-white rounded-4 shadow-lg">
-      <div class="main row p-4 ">
+    <div class="bestway2 container mt-5 "  data-aos="fade-up" data-aos-duration="1200">
+      <div class="main row p-4 bg-white rounded-4 shadow-lg ">
         <div class=" d-flex align-items-center col-xl-6 col-lg-6 col-md-12 col-sm-12" id="trial">
-          <div class="trial mx-auto">
+          <div class="trial mx-auto text-center" data-aos="fade-up" >
             <h1 class="fw-bolder mb-3 "> Get started with<br> Hunyo today</h1>
             <h5 class="fw-bold opacity-75">Start optimizing your processes today.</h5>
-            <div class="mt-4">
-              <a class="btn btn-primary btn-sm me-4 rounded-3 fw-bold p-3 px-5" href="">Sign up now</a>
+            <div class="mt-4 d-inline-block" data-aos="fade-up" id="try">
+              <a class="btn btn-primary btn-sm rounded-3 fw-bold p-3 px-5" href="">Sign up now</a>
             </div>
           </div>
         </div>
-        <div class="tobi col-xl-6 col-lg-6 col-md-12 col-sm-12">
+        <div class="tobi col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up">
           <img class="img-fluid mx-5 w-75 mt-lg-5 mt-sm-1 " src="/img/Ethereum In Hand Symbol.G14.watermarked.2k.png"
             alt="">
         </div>
@@ -313,8 +330,10 @@
       </div>
     </div>
   </div>
-
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
