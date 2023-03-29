@@ -36,11 +36,11 @@
 
 .bestway2::before{
   content:"";
-  z-index: 1;
-  height:100%;
+  z-index:-1;
+  height:95%;
   width: 92.5%;
   position: absolute;
-  color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 1rem;
   box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.2);
 }
@@ -62,8 +62,12 @@
 
 #faq {
   max-width: 400px;
+  position: relative;
+  z-index:1;
 }
 #try{
+  position:relative;
+  z-index: 3;
   display: inline-block;
   transition: .5s;
 }
