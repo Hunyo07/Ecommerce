@@ -64,11 +64,11 @@
           <h1 class="fw-bolder mb-3" id="showcase" > The best way <br> to showcase <br> your project.</h1>
           <a class="btn btn-light" href="">Show us your fashion and love about things in life</a>
           <br>
-          <div class="mt-4 d-inline-block" id="try">
-            <a class="btn btn-primary btn-sm me-4 rounded-3 fw-bold p-3 px-4" href="">Try it for free</a>
+          <div class="mt-4 d-inline-block me-4" id="try">
+            <a class="btn btn-primary btn-sm  rounded-3 fw-bold p-3 px-4" onclick="tryItForFree();" href="">Try it for free</a>
           </div>
             <div class="mt-4 d-inline-block" id="try">
-            <a class="btn btn-outline-dark rounded-3 fw-bold p-3 px-4" href="">See how it works</a>
+            <a class="btn btn-outline-dark rounded-3 fw-bold p-3 px-4" onclick="tryItForFree();" href="">See how it works</a>
           </div>
         </div>
       </div>
@@ -107,7 +107,7 @@
           <h1 class="intro fw-bold ">Introducing <br> good solution</h1>
           <h4 class="join opacity-75 mt-3 p-2">join our community and experience <br> the benefits today!</h4>
           <div id="try" class="d-inline-block" data-aos="fade-up">
-          <a class="jointry btn btn-primary mt-2 p-3 px-4 fw-bold " href="">Try it for free</a>
+          <a class="jointry btn btn-primary mt-2 p-3 px-4 fw-bold " onclick="tryItForFree();"  href="">Try it for free</a>
         </div>
         </div>
       </div>
@@ -132,7 +132,7 @@
           <h6 class="mt-lg-4">We take your data security seriously, which is why we use
             advanced encryption protocols to protect your files in the cloud. Your data is safe abd secured with us</h6>
           <div id="try" class="d-inline-block" data-aos="fade-up">
-            <a class="btn mt-3 btn-outline-dark fw-bold px-lg-4 mt-lg-3 mt-md-3 mt-sm-3 " href="">Try now</a>
+            <a class="btn mt-3 btn-outline-dark fw-bold px-lg-4 mt-lg-3 mt-md-3 mt-sm-3 "  onclick="tryItForFree();" href="">Try now</a>
           </div>
           </div>
       </div>
@@ -147,7 +147,7 @@
             analyzes your existing workflows and identiflies areas for improvement.
           </h6>
           <div id="try" class="d-inline-block" data-aos="fade-up">
-          <a class="btn mt-3 btn-outline-dark fw-bold px-lg-4 mt-lg-3 mt-md-3 mt-sm-3" href="">Try now</a>
+          <a class="btn mt-3 btn-outline-dark fw-bold px-lg-4 mt-lg-3 mt-md-3 mt-sm-3" onclick="tryItForFree();" href="">Try now</a>
         </div>
         </div>
       </div>
@@ -165,7 +165,7 @@
             <h1 class="intro fw-bold ">How to join our community</h1>
             <h4 class="join opacity-75 mt-3 p-2">join our community and experience <br> the benefits today!</h4>
             <div class="d-inline-block"id="try">
-            <a class="jointry btn btn-primary mt-2 p-3 px-4 fw-bold " href=""> Try it for free</a>
+            <a class="jointry btn btn-primary mt-2 p-3 px-4 fw-bold " onclick="tryItForFree();" href=""> Try it for free</a>
           </div>
           </div>
         </div>
@@ -243,11 +243,11 @@
   <div class="bestway2 container"  data-aos="fade-up">
     <div class="main row p-4 bg-white rounded-4 shadow-lg">
       <div class=" d-flex align-items-center text-center col col-xl-6 col-lg-6 col-md-12 col-sm-12 ">
-        <div class="trial">
+        <div class="trial mx-auto">
           <h1 class="fw-bolder mb-3 "> Get started with<br> Hunyo today!!</h1>
           <h5 class="fw-bold opacity-75">Start optimizing your processes today.</h5>
           <div class="mt-4 d-inline-block" id="try">
-            <a class="btn btn-primary rounded-3 fw-bold p-3 px-5" href="">Sign up now</a>
+            <a class="btn btn-primary rounded-3 fw-bold p-3 px-5" onclick="tryItForFree();" href="">Sign up now</a>
           </div>
         </div>
       </div>
@@ -317,11 +317,12 @@
   </div>
     </div>
 
-
+    <script src="/js/index.js" ></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
+   
 </body>
 
 </html>

@@ -59,7 +59,7 @@
 
   <!-------------PRICING--------------->
 
-  <div class="p-xl-5 p-lg-5 p-md-3 text-center m-3 mb-3 mt-3" data-aos="fade-up" data-aos-easing="ease-in-out">
+  <div class="p-xl-5 p-lg-5 p-md-3 text-center m-3 mb-3" data-aos="fade-up" data-aos-easing="ease-in-out">
     <h1 class="fw-bold text-center">
       Pricing
     </h1>
@@ -67,12 +67,12 @@
       be</p>
   </div>
   <div id="carouselExampleDark" class="carousel carousel-dark slide d-block d-lg-none" data-bs-ride="carousel" data-aos="fade-up">
-    <div class="carousel-indicators d-none mb-0" data-aos="fade-up">
+    <!-- <div class="carousel-indicators mb-0" data-aos="fade-up">
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
+    </div> -->
     <div class="" style="height:30rem;">
     <div class="carousel-inner" data-aos="fade-up" style="height:27rem;">
       <div class="carousel-item active h-100" data-bs-interval="10000">
@@ -117,6 +117,12 @@
           </div>
         </div>
       </div>
+      <div class="carousel-indicators" data-aos="fade-up">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -127,6 +133,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+
 </div>
   <div class="container-fluid d-none d-lg-block d-md-none mb-5 pb-5" >
     <div class="container-fluid">
@@ -486,6 +493,8 @@
       </div>
     </div>
   </div>
+
+  
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();

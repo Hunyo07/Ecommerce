@@ -73,8 +73,8 @@
           </div>
           <div class="mb-3" data-aos="fade-up">
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label text-muted">Name</label>
-              <input type="Name" class="form-control rounded-3 p-3" placeholder="Full Name" id="exampleInputPassword1">
+              <label for="exampleInputName1" class="form-label text-muted">Name</label>
+              <input type="Name" class="form-control rounded-3 p-3  name1" placeholder="Full Name" id="exampleInputName1">
               
             </div>
             <div class="mb-3">
@@ -82,11 +82,11 @@
               <input type="email" class="form-control rounded-3 p-3" placeholder="Email address" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
             <div >
-              <label for="exampleInputEmail1" class="form-label  text-muted">Message</label>
-              <input type="Message" class="form-control rounded-3 p-3" placeholder="How can we get better?" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <label for="exampleInputMessage" class="form-label  text-muted">Message</label>
+              <input type="Message" class="form-control rounded-3 p-3" placeholder="How can we get better?" id="exampleInputMessage" aria-describedby="emailHelp">
             </div>
           </div>
-          <button type="submit" class="btn btn-primary fw-bold w-100 p-2 rounded-3">Send message</button>
+          <button type="submit"  onclick="getInputValue();" class="btn btn-primary fw-bold w-100 p-2 rounded-3">Send message</button>
         </form>
       </div>
 
@@ -154,6 +154,8 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+     <script src="/js/contact.js" >
     </script>
 </body>
 
